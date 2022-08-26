@@ -8,4 +8,4 @@ eureka:
     hostname: localhost
     
 zipkin:
-  base-url: http://10.22.64.77:9411/
+  baseUrl: http://10.22.64.77:9411/
