@@ -3,9 +3,9 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://10.22.64.77:8761/eureka/
+      defaultZone: http://dev-cetcfg.combined.energy.aws:8761/eureka/
   instance:
     hostname: localhost
     
 zipkin:
-  baseUrl: http://10.22.64.77:9411/
+  baseUrl: http://dev-cetcfg.combined.energy.aws:9411/
