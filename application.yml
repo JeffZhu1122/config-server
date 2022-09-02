@@ -4,6 +4,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://dev-cetcfg.combined.energy.aws:8761/eureka/
-    
-zipkin:
-  baseUrl: http://dev-cetcfg.combined.energy.aws:9411/
+
+spring:
+  zipkin:
+    base-url: http://dev-cetcfg.combined.energy.aws:9411/
+
